@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.end("Hello from Node.js Docker app!");
+  res.end("Hello from Node.js Docker container application!");
 });
 
 server.listen(3000, () => {
